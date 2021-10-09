@@ -16,6 +16,7 @@ function testRequest(method, url, data){
 // testRequest("PUT", '/moods/2', {year:2009, data:[]})
 
 
+
 function daysInMonth(year, month) {
     return new Date(year, month + 1, 0).getDate()
 }
